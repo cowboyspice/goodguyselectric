@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/example_user/public_html/
     - /bin/npm install
     - /bin/npm run build
-    - /bin/cp -R dist/* $DEPLOYPATH
+    - /bin/cp -R dist/. $DEPLOYPATH
